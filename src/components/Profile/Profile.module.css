@@ -1,0 +1,50 @@
+.profile,
+.title-box,
+.social-links,
+.social-links li {
+	display: flex;
+	flex-direction: column;
+}
+
+.profile {
+	align-items: center;
+	gap: 1.5rem;
+	width: 100%;
+	max-width: 20.625rem;
+	padding: 1.5rem;
+	background-color: #1f1f1f;
+	margin: 2.5rem 0 3.75rem;
+	border-radius: 12px;
+}
+
+.image {
+	width: 5rem;
+	height: auto;
+	border-radius: 50%;
+}
+
+.title-box {
+	gap: 0.375rem;
+	text-align: center;
+}
+
+.title {
+	font-size: 1.5rem;
+}
+
+.location {
+	font-weight: 700;
+	color: #c5f82a;
+}
+
+.social-links {
+	align-self: stretch;
+	gap: 1rem;
+}
+
+@media (min-width: 48em) {
+	.profile {
+		max-width: 22.125rem;
+		padding: 2.25rem;
+	}
+}
