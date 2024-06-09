@@ -1,6 +1,6 @@
-import Header from './components/Header/Header';
-import Profile from './components/Profile/Profile';
-import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header.jsx';
+import Profile from './components/Profile/Profile.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 	return (
