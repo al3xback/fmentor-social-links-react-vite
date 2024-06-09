@@ -7,7 +7,7 @@ function App() {
 		<>
 			<Header />
 			<main className='main'>
-				<div class='container'>
+				<div className='container'>
 					<Profile />
 				</div>
 			</main>
